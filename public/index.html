@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../src/styles.css">
+</head>
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+      <div>
+        <div className="card">
+            <div className="card-header">
+                <h2>Counter</h2>
+            </div>
+           <form id='form1'>
+            <div className="card-body">
+                <div className="mb-3">
+                    <input type="text" id="desc"  placeholder='description'/>
+                </div>
+                <div className="mb-3">
+                    <input type="number" id='amount' placeholder='amount' />
+                </div>
+            </div>
+            <div className="card-footer">
+                <button>Submit</button>
+            </div>
+           </form>
+        </div>
+    </div>
+    <div className="wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th> <b>description</b></th>
+                    <th><b>amount</b></th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    
+</body>
+</html>
