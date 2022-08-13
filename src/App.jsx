@@ -1,12 +1,11 @@
 
-import React, {useState} from 'react';
-import './styles.css';
-
-function App() {
-    const form = document.getElementById('form1');
+import React, {useState} from "react";
+const form = document.getElementById('form1');
     const tbody = document.querySelector('tbody');
     const desc = document.getElementById('desc');
     const amounts = document.getElementById('amount');
+function App() {
+    
     const [spent, setSpent] = useState([
         {description: 'food', amount: 100},
         {description: 'Rent', amount: 200},
